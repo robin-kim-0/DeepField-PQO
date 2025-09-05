@@ -1,6 +1,6 @@
 # Use case A : MediaConnect → DeepField-PQO → MediaLive
 
-This use case describes a workflow where live streams are received through AWS Elemental MediaConnect, intelligently optimized by the DeepField-PQO server prior to encoding, packaged with AWS Elemental MediaPackage, and then ABR-encoded with MediaLive to deliver to viewers efficiently with reduced bandwidth usage while maintaining visual quality.
+This use case describes a workflow where live streams are received through AWS Elemental MediaConnect, intelligently optimized by the DeepField-PQO server prior to encoding, ABR-encoded with MediaLive, and then packaged with AWS Elemental MediaPackage to deliver to viewers efficiently with reduced bandwidth usage while maintaining visual quality.
 
 ## Architecture
 

@@ -1,6 +1,6 @@
 # Use case B : S3 → DeepField-PQO → MediaConvert
 
-This use case describes the workflow of ingesting video files stored in AWS S3, applying DeepField-PQO as a pre-processing step to optimize and compress the content while preserving perceptual quality, and then transcoding the optimized outputs into HLS/DASH formats via AWS Elemental MediaConvert for Video on Demand (VOD) distribution.
+This use case describes a workflow where video files stored in AWS S3 are retrieved and processed with DeepField-PQO as a pre-processing step to intelligently optimize the video content, and then transcoded into HLS/DASH formats via AWS Elemental MediaConvert for Video on Demand (VOD) distribution.
 
 ## Architecture
 
