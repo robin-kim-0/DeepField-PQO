@@ -13,7 +13,7 @@
 ### Step 1. Choose the AMI we shared
 
 - Click “Launch instance” in EC2 console
-- Type "Walrus" in the search box and select it.
+- Type "DeepField-PQO" in the search box and select it.
 
 ### Step 2. Choose g4dn.2xlarge instance
 
