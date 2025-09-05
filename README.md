@@ -111,7 +111,7 @@ This filter has support for timeline through the 'enable' option.
 
 # 4 Use Cases for DeepField-PQO AMI with AWS Elemental
 
-The DeepField-PQO is a GPU-based AMI that performs real-time video quality enhancement for low-resolution videos, including upscaling and noise reduction. This document describes two representative live integration use cases within the AWS Elemental environment (MediaConnect, MediaLive, MediaConvert).
+The DeepField-PQO is a next-generation AI-based pre-processor that intelligently optimizes video data prior to the encoder. This document describes two representative live integration use cases within the AWS Elemental environment (MediaConnect, MediaLive, MediaConvert).
 
 ### [Use case A : MediaConnect → DeepField-PQO → MediaLive](./use-cases/live.md)
 

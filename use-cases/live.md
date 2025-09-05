@@ -1,6 +1,6 @@
 # Use case A : MediaConnect → DeepField-PQO → MediaLive
 
-Receive low-bitrate feeds from external contribution networks (ex. OB vans, studios), perform real-time restoration and upscaling using the DeepField-PQO, and then encode & package them into ABR format with AWS Elemental MediaLive for delivery to viewers.
+Receive live streams through AWS Elemental MediaConnect, process them with the DeepField-PQO server to intelligently optimize video data prior to encoding, then package the streams with AWS Elemental MediaPackage and perform ABR encoding with MediaLive for efficient delivery to viewers with reduced bandwidth consumption and preserved visual quality.
 
 ## Architecture
 
